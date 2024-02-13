@@ -1,0 +1,193 @@
+body {
+    background-color: #ebf3ff9d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 49px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
+}
+
+nav a {
+    font-size: 2rem !important;
+    /* font-family: sans-serif; */
+    font-weight: bold;
+    color: #1877F2 !important;
+}
+
+nav img,
+.main img {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+.nav-icons>i {
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 100%;
+
+}
+
+.nav-icons>i:hover {
+    background-color: #ababac91;
+}
+
+.menu {
+    margin: 10px auto;
+    width: 50%;
+
+    /* background-color: aqua; */
+}
+
+.icons {
+    margin: 0;
+    padding: 0 !important;
+    list-style: none;
+    font-size: 1.5em;
+    gap: 10px;
+}
+
+.icons li {
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.icons li:hover {
+    background-color: #ababac91;
+}
+
+.main img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 5px;
+    border-radius: 100%;
+}
+
+
+.main {
+    background-color: #3c3c3c;
+    padding: 10px;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.head button {
+    border: none;
+    background: #1877F2;
+    color: #fff;
+    border-radius: 100%;
+    padding: 10px 15px;
+}
+
+.profile .part02 {
+    margin: 5px;
+}
+
+.profile h3 {
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+.profile button {
+    border: none;
+    font-size: 13px;
+    background-color: #ababac91;
+    border-radius: 8px;
+    padding: 5px 8px;
+}
+
+.text textarea {
+    width: 100%;
+    height: 15rem;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+.text textarea:focus {
+    outline: none;
+}
+
+.text .col img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text .col input {
+    border-radius: 10px;
+    margin: 5px;
+    background: #3c3c3c;
+    width: 4rem;
+    height: 4rem;
+}
+
+.style .col {
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: -2px;
+}
+
+small {
+    display: none;
+    color: #a9a9a9;
+}
+
+.btm>div {
+    display: none;
+}
+
+.btm {
+    cursor: pointer;
+}
+
+.back {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 992px) {
+
+    .menu {
+        margin: 10px auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    .nav-icons>i {
+        font-size: 1rem;
+        margin: 0px;
+    }
+
+    .menu>ul li {
+        padding: 0;
+        /* gap: 5px; */
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .nav-icons>i {
+        display: none;
+    }
+}
